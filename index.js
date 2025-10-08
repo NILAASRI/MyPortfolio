@@ -42,7 +42,7 @@ $(function () {
     });
   }).trigger('scroll');
 
-  /*Project Modal Functionality */
+  /*Box Modal Functionality */
   const modal = $('#projectModal');
   const modalTitle = $('#modal-title');
   const modalDesc = $('#modal-desc');
@@ -117,3 +117,4 @@ document.querySelectorAll('nav ul li a').forEach(link => {
 });
 
 });
+
