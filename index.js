@@ -1,5 +1,5 @@
 $(function () {
-  /*AOS Animation for all content*/
+  /*AOS Animation for all content = Animate On Scroll*/
   AOS.init({
     duration: 700,
     easing: 'ease-out-cubic',
@@ -117,5 +117,6 @@ document.querySelectorAll('nav ul li a').forEach(link => {
 });
 
 });
+
 
 
