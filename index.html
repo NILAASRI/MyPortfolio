@@ -8,7 +8,7 @@
   <link rel="icon" href="./image.png">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="" crossorigin="anonymous" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">  <!-- AOS for scroll animations -->
 
 </head>
 <body>
@@ -44,7 +44,7 @@
           efficient, and scalable web applications. I love transforming creative
           ideas into digital solutions with modern technologies and elegant designs.
         </p>
-        <div class="btn-home">
+        <div class="cta">
           <button class="btn btn-primary" id="hireBtn">Hire me</button>
           <a class="btn btn-ghost" href="./NILAASRI M Full Stack.pdf" download>Download Resume</a>
         </div>
@@ -52,7 +52,7 @@
 
       <aside data-aos="fade-left">
         <div class="profile-card">
-          <div class="image">
+          <div class="avatar">
             <img src="./LinkedIn Profile.jpg" alt="My Image">
           </div>
           <div class="name">Nilaasri M</div>
@@ -72,19 +72,19 @@
       </aside>
     </section>
 
-    <!-- About -->
+    <!-- ABOUT -->
     <section id="about">
-      <div class="section-head" data-aos="content-ani">
+      <div class="section-head" data-aos="fade-up">
         <h2>About Me</h2>
         <div class="section-sub">Who I am</div>
       </div>
-      <div class="about-content" data-aos="content-ani">
+      <div class="about-content" data-aos="fade-up">
         <p>
           Beyond coding and building web applications, I am a curious learner who enjoys exploring new technologies. I believe in lifelong learning and constantly updating my skill set. 
         </p>
 
         <!-- Education -->
-        <div class="education" data-aos="content-ani" style="margin-top:20px;">
+        <div class="education" data-aos="fade-up" style="margin-top:20px;">
           <h3 style="color:var(--maroon);margin-bottom:10px;">Education</h3>
           <ul style="list-style:disc;margin-left:20px;color:#555;">
             <li>
@@ -129,11 +129,11 @@
 
     <!-- Skills -->
       <section id="skills">
-        <div class="section-head" data-aos="content-ani">
+        <div class="section-head" data-aos="fade-up">
           <h2>Skills</h2>
           <div class="section-sub">Technical Expertise</div>
         </div>
-        <div class="skills-grid" data-aos="content-ani">
+        <div class="skills-grid" data-aos="fade-up">
           <div class="skill">
             <h3>Languages</h3>
             <ul>
@@ -187,7 +187,7 @@
           <div class="skill">
             <h3>Other</h3>
             <ul>
-              <li>Postman API</li>
+              <li>Problem-solving</li>
               <li>Wikisource Editing</li>
               <li>Metabase Connection</li>
               <li>English Typing</li>
@@ -198,12 +198,12 @@
 
     <!-- Projects -->
     <section id="projects">
-      <div class="section-head" data-aos="content-ani">
+      <div class="section-head" data-aos="fade-up">
         <h2>Projects</h2>
         <div class="section-sub">Some of my work</div>
       </div>
-      <div class="projects-grid" data-aos="content-ani">
-        <!-- 1 -->
+      <div class="projects-grid" data-aos="fade-up">
+        <!-- Project 1 -->
         <div class="project-card">
           <h3>Portfolio Website</h3>
           <p style="color:var(--muted);font-size:0.9rem">HTML, CSS, JavaScript, Bootstrap</p>
@@ -213,7 +213,7 @@
           data-link="https://github.com/NILAASRI/MyPortfolio">View</button>
         </div>
 
-        <!-- 2 -->
+        <!-- Project 2 -->
         <div class="project-card">
           <h3>Grade Flow - Students Mark Management</h3>
           <p style="color:var(--muted);font-size:0.9rem">HTML, CSS, JS, PHP, MySQL</p>
@@ -227,7 +227,7 @@
           data-link="#">View</button>
         </div>
 
-        <!-- 3 -->
+        <!-- Project 3 -->
         <div class="project-card">
           <h3>Conveyor Belt Damage Detection</h3>
           <p style="color:var(--muted);font-size:0.9rem">Python, Flask, YOLOv8</p>
@@ -241,7 +241,7 @@
           data-link="#">View</button>
         </div>
 
-        <!-- 4 -->
+        <!-- Project 4 -->
         <div class="project-card">
           <h3>Blog App</h3>
           <p style="color:var(--muted);font-size:0.9rem">HTML, CSS, JavaScript, Spring Boot</p>
@@ -254,9 +254,9 @@
           data-link="https://github.com/NILAASRI/Blog-App">View</button>
         </div>
 
-        <!-- 5 -->
+        <!-- Project 5 -->
         <div class="project-card">
-          <h3>ProfileHub</h3>
+          <h3>Login/Register/Profile</h3>
           <p style="color:var(--muted);font-size:0.9rem">HTML, CSS, Bootstrap, jQuery, AJAX, MySQL, MongoDB</p>
           <button class="btn btn-primary view-btn" 
           data-title="Login/Register/Profile" 
@@ -270,7 +270,7 @@
       </div>
     </section>
 
-    <!-- Modal box -->
+    <!-- Modal -->
     <div id="projectModal" class="modal">
       <div class="modal-content">
         <span class="close">&times;</span>
@@ -281,11 +281,11 @@
     </div>
     <!-- Contact -->
     <section id="contact">
-      <div class="section-head" data-aos="content-ani">
+      <div class="section-head" data-aos="fade-up">
         <h2>Contact</h2>
         <div class="section-sub">Let's build something together</div>
       </div>
-      <div class="contact-grid" data-aos="content-ani">
+      <div class="contact-grid" data-aos="fade-up">
         <div>
           <form id="contactForm">
             <input type="text" id="name" placeholder="Your name" required>
@@ -317,5 +317,3 @@
   <script src="./index.js"></script>
 </body>
 </html>
-
-
