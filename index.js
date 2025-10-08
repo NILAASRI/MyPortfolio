@@ -1,11 +1,11 @@
 $(function () {
-  /*AOS Animation*/
+  /*AOS Animation for all content*/
   AOS.init({
     duration: 700,
     easing: 'ease-out-cubic',
     once: true
   });
-
+ /*This ensures the role I am aspring*/
   new Typed('#typed', {
     strings: [
       "Full Stack Java Developer",
@@ -28,7 +28,7 @@ $(function () {
     $(this).addClass('active');
   });
   const sections = $('section');
-
+ /*Adding 120 from current position*/
   $(window).on('scroll', function () {
     const scrollPos = $(window).scrollTop() + 120;
 
@@ -106,7 +106,7 @@ menuToggle.addEventListener('click', () => {
   }
 });
 
-// Close menu:mobile only
+// Close menu:mobile size only
 document.querySelectorAll('nav ul li a').forEach(link => {
   link.addEventListener('click', () => {
     if (navUl.classList.contains('show')) {
@@ -117,4 +117,5 @@ document.querySelectorAll('nav ul li a').forEach(link => {
 });
 
 });
+
 
