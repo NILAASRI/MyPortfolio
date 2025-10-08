@@ -101,7 +101,7 @@ nav a:hover {
   line-height: 1.5;
   color: #444;
 }
-.cta {
+.btn-home {
   display: flex;
   gap: 12px;
   margin-top: 18px;
@@ -149,13 +149,13 @@ nav a:hover {
   align-items: center;
   gap: 12px;
 }
-.avatar {
+.image {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   overflow: hidden;
 }
-.avatar img {
+.image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -226,16 +226,14 @@ section {
   gap: 20px;
   margin-top: 5px;
 }
-.certifications,
-.achievements {
+.certifications, .achievements {
   background: #fff;
   border: 1px solid rgba(128, 0, 0, 0.1);
   border-radius: 10px;
   padding: 5px 20px;
   box-shadow: 0 4px 10px rgba(128, 0, 0, 0.08);
 }
-.certifications h4,
-.achievements h4 {
+.certifications h4, .achievements h4 {
   color: var(--maroon);
   font-size: 1.1rem;
   font-weight: 700;
@@ -243,14 +241,12 @@ section {
   border-bottom: 2px solid rgba(128, 0, 0, 0.2);
   display: inline-block;
 }
-.certifications ul,
-.achievements ul {
+.certifications ul, .achievements ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.certifications li,
-.achievements li {
+.certifications li, .achievements li {
   position: relative;
   padding-left: 15px;
   margin-bottom: 8px;
@@ -258,8 +254,7 @@ section {
   color: #333;
   line-height: 1.5;
 }
-.certifications li::before,
-.achievements li::before {
+.certifications li::before, .achievements li::before {
   content: "•";
   color: #800000;
   position: absolute;
@@ -462,3 +457,4 @@ form button {
     right:25px;
   }
 }
+
